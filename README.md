@@ -146,6 +146,13 @@ If you perform loading of `.wrl` files, you also need the [Coin3D](https://bitbu
 The included GUI application also requires __QT4__ and __SoQT4__.  
 The modules involving convex bodies rely on [QHull](http://www.qhull.org/) and [CGAL](http://www.cgal.org/).
 
+
+Install CGAL
+	https://doc.cgal.org/latest/Manual/usage.html
+	
+	sudo apt-get install libcgal-dev
+
+
 #### Building from Source
 We provide a CMake build file. We recommend building by
 
